@@ -10,7 +10,7 @@ from jinja2 import Environment
 
 def send_email():
     username = 'weather@piard.de'
-    password = 'abcd12345678'
+    password = 'xyz'
     fromaddr = 'weather@piard.de'
     toaddr = ['heinrich@piard.de']
     current_weather = (get_weather_data())
